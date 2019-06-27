@@ -1,0 +1,6 @@
+name,description,quantiy,unitPrice,_issue,_exceptionType,_description
+@null,Samsung galaxy s6,5,50000,EXCEPTION,ConstraintViolationException,Product with blank name should fail
+Samsung galaxy s6 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Samsung galaxy s6,5,50000,EXCEPTION,ConstraintViolationException,Product with name length more than 100 should faild
+Samsung galaxy s6,Samsung galaxy s6,@null,50000,EXCEPTION,ConstraintViolationException,Product with null quantity should faild
+Samsung galaxy s6,Samsung galaxy s6,5,@null,EXCEPTION,ConstraintViolationException,Product with null unitPrice should faild
+Samsung galaxy s6,Samsung galaxy s6,5,50000,SUCCED,ConstraintViolationException,Product with correct fields should succed

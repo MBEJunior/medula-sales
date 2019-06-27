@@ -1,0 +1,9 @@
+name,description,quantiy,unitPrice,_issue,_exceptionType,_description
+@null,Samsung galaxy s6,5,50000,FAIL,,Product with blank name should fail
+a,Samsung galaxy s6,5,50000,FAIL,,Product with name length less than 3 should faild
+Samsung galaxy s6 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Samsung galaxy s6,5,50000,FAIL,,Product with name length more than 100 should faild
+Samsung galaxy s6,Samsung galaxy s6,@null,50000,FAIL,,Product with null quantity should faild
+Samsung galaxy s6,Samsung galaxy s6,-5,50000,FAIL,,Product with negative quantity should faild
+Samsung galaxy s6,Samsung galaxy s6,5,@null,FAIL,,Product with null unitPrice should faild
+Samsung galaxy s6,Samsung galaxy s6,5,-50000,FAIL,,Product with negative unitPrice should faild
+Samsung galaxy s6,Samsung galaxy s6,5,50000,SUCCED,,Product with correct fields should succed
